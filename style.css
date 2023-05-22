@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.empty {
+    position: relative;
+    width: 7px;
+}
+
+
+.PeriodicHead {
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+.PeriodicHead h1 {
+    font-size: 2.5rem;
+    color: #630c0c;
+}
+
+.label{
+    width: 7vw;
+    position: absolute;
+    font-weight: bold;
+    top: 5px;
+    text-align: left;
+}
+
+.text {
+    position: absolute;
+    cursor: pointer;
+    top: 15%;
+    left: 31%;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.table {
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(20, auto);
+    gap: 10px;
+    position: relative;
+    padding: 20px 0px 20px 0px;
+}
+
+
+.ScientificElement {
+    height: 45px;
+    width: 3.8vw;
+    text-align: center;
+    transition: 0.2s ease;
+    border-radius: 2px;
+    position: relative;
+}
+
+.ScientificElement:hover {
+    transform: scale(1.2);
+    opacity: 0.9;
+
+    /* z-index: 10; */
+}
+
+.f-block {
+    display: grid;
+    grid-template-columns: repeat(15, auto);
+    gap: 10px;
+    width: 67vw;
+    margin: 20px 0px 30px 240px;
+}
+
+.pink {
+    background-color: lightcoral;
+}
+
+.yellow {
+    background-color: #e1e12d;
+}
+
+.blue {
+    background-color: skyblue;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+span.arrow {
+    transform: rotate(90deg);
+}
